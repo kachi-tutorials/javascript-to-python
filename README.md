@@ -1,14 +1,20 @@
 # Learning Python as a Javascript developer
 
-As a coder, you should always be looking to expand your knowledge. The best way to do this is by learning different coding languages and frameworks. I myself am a **`Javascript`** and **`Python`** fullstack developer and like most self-taught developers, I started by learning **`HTML`**, **`CSS`** and **`Javascript`** first. Eventually I learned **`Python`** and found it very useful. Python is great for handling backend data and creating simple scripts like web-scrapers.
+As a coder, you should always be looking to expand your knowledge. The best way to do this is by learning different coding languages and frameworks.
 
-If you're nervous about learning **`Python`**, remember that **`Python`** is a high level programming language. This means it is around the same level of difficulty to learn as **`Javascript`**. I would even argue it is easier to learn than javascript, and the transition from **`Javascript`** to **`python`** much smoother than the other way round.
+I myself am a **`Javascript`** and **`Python`** fullstack developer and like most self-taught developers, I started by learning **`HTML`**, **`CSS`** and **`Javascript`** first.
+
+Eventually I learned **`Python`** and found it very useful. Python is great for handling backend data and creating simple scripts like web-scrapers.
+
+If you're nervous about learning **`Python`**, remember that **`Python`** is a high level programming language. This means it is around the same level of difficulty to learn as **`Javascript`**.
+
+I would even argue it is easier to learn than javascript, and the transition from **`Javascript`** to **`python`** much smoother than the other way round.
 
 In this tutorial, I'll outline the main differences between the two coding languages.
 
 ## Set Up
 
-Firstly, make sure [**`python`**](https://www.python.org/downloads/) is installed on your machine before you start.
+Firstly, make sure [**`Python`**](https://www.python.org/downloads/) is installed on your machine before you start.
 
 You can check this by running this command in your terminal:
 
@@ -16,11 +22,11 @@ You can check this by running this command in your terminal:
 python3 --version
 ```
 
-Alternatively, you can use a [**`sandbox`**](https://pythonsandbox.com/) to test **`python`** code.
+Alternatively, you can use a [**`sandbox`**](https://pythonsandbox.com/) to test **`Python`** code.
 
 ## Methods
 
-The methods used in **`python`** and **`javascript`** are not the same.
+The methods used in **`python`** and **`javascript`** are named differently.
 
 Here are some examples of this:
 
@@ -40,7 +46,9 @@ arr.append("new string") # Add new item to end of list
 arr.sort() # Sort a list
 ```
 
-As you can see, the differences are not huge and you of course do not need to remember all of them. Here are links to some of the ones you'll need to know.
+As you can see, the differences aren't huge and you of course don't need to remember all of them.
+
+Here are some useful links for you to reference:
 
 | Type       | Page                                                                 |
 | ---------- | -------------------------------------------------------------------- |
@@ -110,13 +118,13 @@ my_example = "hello world" # basic variable
 MY_EXAMPLE = "hello world" # Red flag to not change
 ```
 
-**Note**: In **`python`**, every variable is mutable. There is no real way to prevent but when writing code, you changing the case of the variable can signal to other programmers that the variable should not be changed.
+**Note**: In **`python`**, every variable is mutable. There is no real way to prevent this. When writing code in python, changing the case of the variable can signal to other programmers that the variable should not be changed.
 
 ## List and Arrays
 
-There are a couple differences between **`Javascript`** and **`Python`** arrays.
+There are a few differences between **`Javascript`** and **`Python`** arrays.
 
-- **`Arrays`** in **`Javascript`** are called **`lists`** in **`Python`**.
+- What we refer to as **`arrays`** in **`Javascript`** are called **`lists`** in **`Python`**.
 - **`Javascript`** use **camel casing** and **`Python`** use **underscores**.
 - **`const`**, **`let`** and **`var`** are used in **`javascript`**. Cases are used in **`python`**.
 
@@ -250,14 +258,14 @@ for obj in arr:
 
 To check types in **`javascript`**:
 
-```python
-type(instance)
+```javascript
+typeof instance;
 ```
 
 To check types in **`python`**:
 
-```javascript
-typeof instance;
+```python
+type(instance)
 ```
 
 ## Imports
@@ -282,7 +290,7 @@ from django.db import models
 
 In **`JavaScript`**, the constructor method is called constructor and it has a parameters list as well.
 
-In **`Python`**, the constructor that initialises the new instance is called **`__init__`**. This method is called automatically when an instance of the class is created to initialise its attributes. It's parameters list defines the values that we have to pass to create the instance. This list starts with self as the first parameter.
+In **`Python`**, the constructor that initializes the new instance is called **`__init__`**. This method is called automatically when an instance of the class is created to initialize its attributes. It's parameters list defines the values that we have to pass to create the instance. This list starts with self as the first parameter.
 
 ### Class format
 
@@ -336,8 +344,8 @@ person_one = Person("John", 18)
 
 ## Summary
 
-The goal of this tutorial is to show the subtle differences between **`javascript`** and **`python`**. The best way to learn is to rewrite some of your **`javascript`** functions in **`python`**.
+The goal of this tutorial is to show the subtle differences between **`javascript`** and **`python`**. The best way to learn is practice. Try rewriting some of your basic **`javascript`** functions in **`python`**.
 
-If you want to try solve a few problems in python on [**`Code Wars`**](https://www.codewars.com/).
+A good way to practice is trying solve a few problems in python on [**`Code Wars`**](https://www.codewars.com/).
 
 Thanks for reading and Good Luck!
